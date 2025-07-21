@@ -57,7 +57,7 @@ if (afterOpen && beforeClose) {
         break;
     }
 }
-
+/*
 // testimonials
 
     let currentTestimonial = 0;
@@ -150,3 +150,5 @@ const toast = document.getElementById("toast");
       setTimeout(() => toast.classList.remove("show", "error"), 3000);
     }
   });
+  */
+ 
