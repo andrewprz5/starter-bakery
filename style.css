@@ -107,6 +107,10 @@
         text-align: center;
     }
 
+    .cta .btn {
+      padding: 0.75rem 1.5rem;
+    }
+
     .btn:hover {
       background-color: var(--primary-dark);
     }
@@ -424,7 +428,6 @@
     }
     #contact .btn {
       background-color: var(--primary);
-      padding: 0.75rem 1.5rem;
       border-radius: 5px;
       font-weight: bold;
       transition: background-color 0.3s ease;
