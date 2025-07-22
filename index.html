@@ -105,31 +105,25 @@
 </p>
   </form>
 </section> -->
+<section class="slideshow-section">
+  <h2 class="slideshow-heading">A taste of Costa Rica, one bite at a time.</h2>
 
-<section class="slideshow">
-        <h2>A taste of Costa Rica 🇨🇷, one bite at a time.</h2>
-        <input type="radio" name="radio-btn" id="img-1" checked>
-        <input type="radio" name="radio-btn" id="img-2">
-        <input type="radio" name="radio-btn" id="img-3">
+  <div class="slideshow">
+    <div class="slides" id="slides">
+      <div class="slide">
+        <img src="bread.png" alt="Freshly baked Costa Rican bread from our local bakery in Hawthorne NJ" />
+      </div>
+      <div class="slide">
+        <img src="empanadas.png" alt="Homemade Costa Rican empanadas filled with savory beef and spices" />
+      </div>
+      <div class="slide">
+        <img src="delicias.png" alt="Delicias – traditional Costa Rican pastries, sweet or savory, fresh from the oven" />
+      </div>
+    </div>
 
-        <div class="slides">
-            <div class="slide">
-                <img src="bread.png" alt="Freshly baked Costa Rican bread from our local bakery in Hawthorne NJ">
-            </div>
-            <div class="slide">
-                <img src="empanadas.png" alt="Homemade Costa Rican empanadas filled with savory beef and spices">
-            </div>
-            <div class="slide">
-                <img src="delicias.png" alt="Delicias – traditional Costa Rican pastries, sweet or savory, fresh from the oven">
-            </div>
-        </div>
-
-        <div class="navigation-manual">
-            <label for="img-1" class="manual-btn"></label>
-            <label for="img-2" class="manual-btn"></label>
-            <label for="img-3" class="manual-btn"></label>
-        </div>
-        
+    <button class="nav-btn prev" onclick="moveSlide(-1)">❮</button>
+    <button class="nav-btn next" onclick="moveSlide(1)">❯</button>
+  </div>
 </section>
 
 <section class="cta">
